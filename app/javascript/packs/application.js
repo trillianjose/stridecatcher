@@ -12,7 +12,7 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-require("bootstrap")
+import("bootstrap")
 import "../stylesheets/application";
 document.addEventListener("turbolinks:load", function() {
     $(function () {
